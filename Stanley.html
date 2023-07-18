@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seek</title>
+    <link rel="stylesheet" href="seek.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="top">
+            <h1 class="title-title-text">Seek and Ye Shall Find</h1>
+        </div>
+       
+        
+        <div class="left">
+            <h2 class="title-text">The Real Me</h2>
+            <p>Hi! My name is Stanley and I am 14 years old. 
+                I live in Novato California and I am an incoming freshman at Marin Catholic High School. 
+                I like playing video games such as Overwatch and playing sports with my friends. 
+                My favorite food is a cheeseburger and I LOVE boba (My parents own a boba shop). 
+                AIC is going to be my 4th ATDP class as I have taken Digital Inventions, the Writing Process, and TIC. 
+                I have played piano for 9 years. 
+                Over the summer, I am taking AIC, doing freshman football, and possibly visit my cousins in New York.
+
+
+            </p>
+            <p>Fun Fact about me is that I am 6’1. (I'm on the far right)</p>
+            <img src="grad.jpg" alt="Graduation Picture" width="70%" height="40%">
+            
+        </div>
+        <div class="right">
+            <h2 class="title-text">The Tech Me</h2>
+            <p>I started my programming journey in 3rd grade by enrolling in a after-school camp teaching kids about VERY simple html and making games in Scratch
+                and also enrolling in a simple coding course in ATDP (Digital Inventions).  
+                Later on in middle school, my mom enrolled my in a online computer-science course based in Boston. There, I learned 
+                all of my programming knowledge and I have created projects such as a basic Virtual Assistant and a Pathfinding game all in 
+                Java. As for web development, I attended TIC last year and learned about many new things about HTML and CSS. 
+
+                
+            </p>
+            <p>TLDR: I have learned programming for about a couple years and I am fluent in Java.</p>
+            <img src="codecode.jpg" alt="Coding Picture" width="70%" height="40%">
+        </div>
+
+        
+        <div class="bottom">
+            <h2 class="title-text">The You-Mediated-Through-Questions-You'd-Like-to-Ask-Others</h2>
+            <form action="https://atdpsites.berkeley.edu/test.php" method="POST">
+                <h2 class="title-text">Classmate Survey</h2>
+              
+                <div>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+              
+                <div>
+                  <label for="gender">Gender:</label>
+                  <select id="gender" name="gender" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                    <option value="apache-helicopter">Apache Helicopter</option>
+                  </select>
+                </div>
+              
+                <div>
+                  <label for="age">Age:</label>
+                  <input type="number" id="age" name="age-num" required>
+                </div>
+              
+                <div>
+                  <label>Favorite Color:</label>
+
+                  <input type="radio" id="color-blue" name="color" value="blue" required>
+                  <label for="color-blue">Blue</label>
+
+                  <input type="radio" id="color-red" name="color" value="red" required>
+                  <label for="color-red">Red</label>
+
+                  <input type="radio" id="color-green" name="color" value="green" required>
+                  <label for="color-green">Green</label>
+
+                  <input type="radio" id="color-brown" name="color" value="brown" required>
+                  <label for="color-brown">Poopy Brown</label>
+                </div>
+              
+                <div>
+                    <label>Programming Languages you know:</label>
+                    <div>
+                        <input type="checkbox" id="lang-cplus" name="languages[]" value="cplus">
+                        <label for="lang-cplus">C++</label>
+                    </div>
+                    <div>                       
+                        <input type="checkbox" id="lang-java" name="languages[]" value="java">
+                        <label for="lang-java">Java</label>
+                    </div>
+                    <div>
+                        
+                        <input type="checkbox" id="lang-python" name="languages[]" value="python">
+                        <label for="lang-python">Python</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="lang-js" name="languages[]" value="js">
+                        <label for="lang-js">Javascript</label>
+                    </div>
+                    
+                    
+                    
+                    <div>
+                        <label for="other-language">Other:</label>
+                        <textarea id="other-language" name="languages[]" placeholder="Enter other programming language"></textarea>
+                    </div>
+
+                    
+                </div>
+              
+                <div>
+                  <label for="feedback">Feedback:</label>
+                  <textarea id="feedback" name="feedback" placeholder="Please be nice :("></textarea>
+                </div>
+              
+                <div>
+                  <button class= "button" type="submit">Submit</button>
+                </div>
+              </form>
+        </div>
+
+    </div>
+    <h2><a href="https://atdpsites.berkeley.edu/validate/">HTML5</a></h2>
+</body>
+</html>

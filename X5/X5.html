@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Magic Mixerator</title>
+	<link rel="stylesheet" href="X5.css">
+</head>
+<body>
+	<h1>Magic Mixerator</h1>
+	<form action="mix.php" method="post">
+		<p>Add in <input name="beans" type="number" required> magic beans</p>
+		<p>Add in <input name="gems" type="number" required> magic gems</p>
+		<p>Perform action:</p>
+			<p><label><input type="radio" name="mixaction" value="shake" required>Shake Vigorously</input></label></p>
+			<p><label><input type="radio" name="mixaction" value="blend" required>Blend</input></label></p>
+			<p><label><input type="radio" name="mixaction" value="stir" required>Stir Slowly</input></label></p>
+			<p><label><input type="radio" name="mixaction" value="boil" required>Boil</input></label></p>
+		<p><button type="submit">Do it!</button></p>
+	</form>
+</body>
+</html>

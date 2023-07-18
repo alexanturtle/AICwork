@@ -1,0 +1,16 @@
+.metairony {
+    background-color: yellow;
+    font-size: 20px;
+}
+
+.lessemphasis {
+    font-size: smaller;
+}
+
+.songerrors {
+    background-color: pink;
+}
+
+.movieerrors {
+    background-color: lightblue;
+}

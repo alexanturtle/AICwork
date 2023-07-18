@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(174, 242, 178);
+    font-style: Roboto;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+#intro{
+    font-size: 20px;
+}
+
+.see {
+    background-color: rgba(215, 243, 215, 0.9);
+    position: fixed;
+    text-align: center;
+    padding: 170px;
+    padding-bottom: 300px;
+    width: 50%;
+    height: 15%;
+    bottom: 1;
+    z-index: 2;
+    margin-top: 100px;
+    margin-left: 190px;
+    font-size: 40px;
+    color: rgb(97, 84, 84);
+}
+
+#climate {
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.button {
+    width: 20%;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: rgb(111, 203, 166);
+}
+
+#take {
+    margin-top: 0px;
+}
+
+#description {
+    font-size: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+input:invalid {
+    background-color: rgb(205, 141, 141);
+}
+
+#back {
+    margin-top: 200px;
+}
+#back2 {
+    margin-top: 75px;
+}
+#back3 {
+    margin-top: 200px;
+}
+#back4 {
+    margin-top: 120px;
+}
+#back5 {
+    margin-top: 120px;
+}
+#back6 {
+    margin-top: 120px;
+}
+#back7 {
+    margin-top: 120px;
+}
+#back8 {
+    margin-top: 120px;
+}
