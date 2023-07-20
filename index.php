@@ -27,6 +27,10 @@
       padding: 10px;
       background-color: rgba(63, 100, 63, 0.6);
     }
+    tr:hover {
+      background-color: rgba(63, 100, 63, 0.3);
+      font-size: 35px;
+    }
 </style>  
 </head>
 
@@ -76,6 +80,9 @@
   </tr>
   <tr>
       <td><a href="X10/game.php">X10</a></td>
+  </tr>
+  <tr>
+      <td><a href="X11/signin.php">X11</a></td>
   </tr>
   </table>
 </body>
