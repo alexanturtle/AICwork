@@ -14,6 +14,12 @@ require_once "config.php";
         $sth->execute();
         $players = $sth->fetchAll();
         //var_dump($players);
+        if(isset($_GET['id'])){
+            $incorrect = $_GET['id'];
+            if($incorrect = "incorrect"){
+                echo "incorrect password!";
+            }
+        }
         echo"<h1>Parkamon Login :D!</h1>";
 
         echo"<form id='parkamon' method='post' action='game.php'>";

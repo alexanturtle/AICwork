@@ -20,10 +20,11 @@ require_once "config.php";
             $password = $_POST['password'];
             if (password_verify($password, $hash['password_hash'])) {
                 echo "Password correct";
+                $correct = True;
             }
             else {
                 echo "Password incorrect";
-                header('Location: signin.php');
+                header('Location: signin.php?id=incorrect');
                 exit;
             }
         }
@@ -34,8 +35,8 @@ catch (PDOException $error) {
 }
     ?> 
 <?php
-if (isset($_POST['player'])){
-    $player = $_POST['player'];
+if (isset($_POST['player']) && $correct){
+    //$player = $_POST['player'];
     $_SESSION['playerid'] = $player;
 }
 else if (isset($_SESSION['playerid'])){
@@ -62,7 +63,7 @@ else if(!isset($_SESSION['playerid'])){
         $name = $playerid->fetch();
         echo"<h1>Parkamon :D!</h1>";
         //var_dump($name);
-        echo $name['name'];
+        echo $name['name'] . "'s Parkamon: ";
         echo"<table>";
         foreach ($table as $row){
             echo"<tr>";
